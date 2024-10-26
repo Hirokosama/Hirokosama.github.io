@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0;
+}
+
+.headerfont{font-family:'Trebuchet MS'; font-size: 20px;
+    text-align: left;
+    } 
+.centerHeader{ font-family:'Trebuchet MS';
+    text-align: left; 
+    } 
+.myheadshot{
+    border-radius: 50%;
+    margin: 50px 180px 50px 50px;
+   
+}
+image{   /* Set an equal height */
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgba(118,9,9,.1);
+    max-width: 100%; /*ensure the image is responsive*/ 
+    height: auto;/*maintaion image's aspect ration while resizing*/ 
+    object-fit: cover;/* Make the image round */
+}
+header {
+    background-image: url('Images/Smallpokadots.jpeg'); /* Specifies the background image */
+    background-repeat: no-repeat;             /*Prevents the image from repeating */
+    background-size: cover;                     /* Scales the image to cover the entire container */
+    background-position: center;
+    color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: "sans-serif";
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap:nowrap
+}
+nav { 
+    height: 100px; 
+    width: 100%; 
+    background-color: white; 
+} 
+.navLinkContainer { 
+    display: flex; 
+    justify-content: end; 
+    align-items: baseline; 
+} 
+.navTitle { 
+    float: left; 
+    align-items: baseline; 
+    width: 15%; 
+    padding:20px; 
+} 
+.navbarLink { 
+    padding:20px; 
+    text-decoration: none; 
+    color: black; 
+} 
+body {
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+}
+main { 
+    display: flex; 
+    flex-direction: column;/*stacks child elements (section)*/ 
+    align-items: center; 
+    padding: 30px; 
+} 
+section { 
+    background-color: #f9f9f9;/*background color of each sections*/ 
+    border-radius: 8px;/*adds rounded corners to section*/ 
+    box-shadow: 0px 4px 8px rgba(0,0,0,.1);/*box shadow making it float*/ 
+    padding: 30px 30px 30px 30px;/*adds space inside each section card*/ 
+    margin-bottom: 20px;/*adds space at the bottom of each card*/ 
+    width: 100%;/*makes the section take up the full width of the main container*/ 
+    max-width: 650px;/*limits the width to a max of 800px*/ 
+}
+h2 {border:black
+}
+h3{
+    font-size: 20px;
+}
+.intro{
+    text-align: left;
+    max-width: 400px; 
+    padding: 10px;
+   }
+.centerHeader{
+    text-align: left;
+}
+footer{
+    background-image: url('Images/Smallpokadots.jpeg'); /* Specifies the background image */
+    height: 160px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 35px;
+    border-radius: 0%;
+}
+.footerLinks { 
+    text-decoration: none; 
+    color:black; 
+} 
+.techMomImage { 
+    padding-top: 20px;
+    border-radius: 0%;
+}
+.title {
+    background-color: #d1f1f6;
+    width: fit-content;
+}
+.no-bullets {
+    list-style-type: none;  /* Removes the bullets */
+    padding-left: 0;        /* Removes the indentation */
+  }
