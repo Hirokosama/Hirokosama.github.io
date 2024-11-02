@@ -124,6 +124,16 @@ section {
 .link {
     color: black;
     text-decoration: none;
+ 
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li img{
+    margin-right: 10px;
 }
 
 .link:hover {
